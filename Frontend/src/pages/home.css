@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #6d288a, #9b59b6);
+    background: linear-gradient(to right, #9240b5, #5c306e);
     color: white;
     padding: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .search-container {
@@ -136,7 +136,7 @@ main {
     border-radius: 4px;
     text-decoration: none;
     font-size: 14px;
-    float: right;
+    text-align: right;
 }
 
 .no-results, .loading {

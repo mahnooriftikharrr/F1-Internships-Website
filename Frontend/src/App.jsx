@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reactLogo from './assets/react.svg'
-import viteLogo from '/download.jpeg'
 import './App.css'
 import Home from './pages/home';
 import './pages/home.css';
@@ -11,12 +10,9 @@ function App() {
 
   const NotFound = () => {
     return (
-      
       <div className='b'>
-        
         <h1>404</h1>
         <p>Page not found</p>
-        
       </div>
     )
   }
