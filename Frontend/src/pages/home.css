@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+.a{
+    border-radius: 15px;
+    box-shadow: #555 5px 5px 5px 5px;
+    padding: 12px;
+}
+
+header {
+    background: linear-gradient(to right, #6d288a, #9b59b6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c15feb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.results-count {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.internships-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .internships-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .internships-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.internship-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    margin-bottom: 15px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.company {
+    color: #8e44ad;
+    margin: 0 0 5px 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f0e6f6;
+    color: #8e44ad;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.location, .target-class {
+    color: #666;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.description {
+    color: #555;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+}
+
+.no-results, .loading {
+    text-align: center;
+    padding: 40px 0;
+    display: none;
+}
