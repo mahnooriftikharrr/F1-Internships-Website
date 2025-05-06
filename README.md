@@ -76,18 +76,16 @@ node server.js: Start the Express server.
 
 ## Technologies Used
 1. Frontend
-React, ![image width="200" height="50"](https://github.com/user-attachments/assets/2fec9033-1a2d-4763-96c5-2161d5acd44a)
-Vite,![image](https://github.com/user-attachments/assets/921c6e29-eec0-4f5e-92d8-be3186424d2b)
-React Router, ![image](https://github.com/user-attachments/assets/a0420995-542a-4fea-99d1-c3797754c0a7)
-CSS ![image](https://github.com/user-attachments/assets/1a443e1f-7323-4238-83af-14f5bdebdf94)
-HTML, ![image](https://github.com/user-attachments/assets/68b52f1b-aa19-46b4-b199-4d5d149fce3f)
-Javascript, ![image](https://github.com/user-attachments/assets/92662799-c396-4fcf-8611-c8199e3f59dd)
+React,
+Vite,
+React Router, 
+CSS,
+HTML,
+Javascript.
 
-2. Backend
-Express.js,![image](https://github.com/user-attachments/assets/5df67604-e12c-4173-8e95-ce631bacc84b)
-
-MySQL, ![image](https://github.com/user-attachments/assets/8390be96-78bb-4237-b931-3cc10cac6718)
-
+3. Backend
+Express.js,
+MySQL,
 dotenv for environment variable management
 
 ## Contact
