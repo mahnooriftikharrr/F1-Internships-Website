@@ -76,7 +76,7 @@ node server.js: Start the Express server.
 
 ## Technologies Used
 1. Frontend
-React, ![image](https://github.com/user-attachments/assets/2fec9033-1a2d-4763-96c5-2161d5acd44a)
+React, ![image width="200" height="50"](https://github.com/user-attachments/assets/2fec9033-1a2d-4763-96c5-2161d5acd44a)
 Vite,![image](https://github.com/user-attachments/assets/921c6e29-eec0-4f5e-92d8-be3186424d2b)
 React Router, ![image](https://github.com/user-attachments/assets/a0420995-542a-4fea-99d1-c3797754c0a7)
 CSS ![image](https://github.com/user-attachments/assets/1a443e1f-7323-4238-83af-14f5bdebdf94)
