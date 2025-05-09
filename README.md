@@ -3,6 +3,8 @@ This is a web application designed to help F1 students find internships that spo
 
 <img width="820" alt="image" src="https://github.com/user-attachments/assets/afbd601e-f4e1-4887-b91a-03152a6516ce" />
 
+https://github.com/user-attachments/assets/92e51a15-9393-46ee-be7e-c8435933d61a
+
 ## Features
 
 - **Search Internships**: Search for internships by role, company, or title.
