@@ -1,11 +1,9 @@
 # F1 INTERNSHIPS WEBSITE
 This is a web application designed to help F1 students find internships that sponsor international students. The project is built using React, Vite, HTML, CSS, Javascript for the frontend and Express.js, node.js with MySQL for the backend.
 
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/9cf1e758-1ef5-43cf-aee9-bf52e610fea2" />
+<img width="820" alt="image" src="https://github.com/user-attachments/assets/afbd601e-f4e1-4887-b91a-03152a6516ce" />
 
 ## Features
-
-<img width="940" alt="image" src="https://github.com/user-attachments/assets/fde0d7de-a7e9-4972-913e-ac8df8b416bc" />
 
 - **Search Internships**: Search for internships by role, company, or title.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
