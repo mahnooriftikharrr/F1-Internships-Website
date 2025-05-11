@@ -6,7 +6,6 @@ import './home.css';
 function Home() {
         
   const [databaseInternships, setData] = useState([]);
-
   const [query, setQuery] = useState('');
 
   const handleSubmit = async (e) => {
@@ -14,7 +13,7 @@ function Home() {
     console.log('Searching for:', query);
   
     const endpoint = query.trim()
-      ? `http://localhost:3000/internships/title/${encodeURIComponent(query)}`
+      ? `http://localhost:3000/internships/search/${encodeURIComponent(query)}`
       : `http://localhost:3000/internships`;
   
     try {
