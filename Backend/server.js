@@ -14,32 +14,20 @@ const db = mysql.createConnection({
     database: process.env.DATABASE,
 });
 
+app.get('/internships/search/:query', (req, res) => {
+    const search = `%${req.params.query}%`;
+    const sql = `
+        SELECT * FROM \`internships - opt_cpt internships\`
+        WHERE role LIKE ? OR company LIKE ? OR title LIKE ?
+    `;
+    db.query(sql, [search, search, search], (err, results) => {
+        if (err) return res.status(500).send(err);
+        res.json(results);
+    });
+});
+
 app.get('/internships', (req, res) => {
     db.query('SELECT * FROM `internships - opt_cpt internships`', (err, results) => {
-        if (err) return res.status(500).send(err);
-        res.json(results);
-    });
-});
-
-app.get('/internships/:id', (req, res) => {
-    const id = req.params.id;
-    db.query('SELECT * FROM `internships - opt_cpt internships` WHERE id = ?', [id], (err, results) => {
-        if (err) return res.status(500).send(err);
-        res.json(results);
-    });
-});
-
-app.get('/internships/company/:company', (req, res) => {
-    const company = `%${req.params.company}%`;
-    db.query('SELECT * FROM `internships - opt_cpt internships` WHERE company LIKE ?', [company], (err, results) => {
-        if (err) return res.status(500).send(err);
-        res.json(results);
-    });
-});
-
-app.get('/internships/title/:title', (req, res) => {
-    const title = `%${req.params.title}%`;
-    db.query('SELECT * FROM `internships - opt_cpt internships` WHERE title LIKE ?', [title], (err, results) => {
         if (err) return res.status(500).send(err);
         res.json(results);
     });
