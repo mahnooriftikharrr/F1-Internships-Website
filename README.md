@@ -43,13 +43,13 @@ Key files:
    git clone <repository-url>
    cd F1_Internships_Website
 
-2. Install dependencies for the frontend:
-    cd Frontend
-    npm install
+2. Install dependencies for the backend:
+    - cd ../Backend
+    - npm install
 
-3. Install dependencies for the backend:
-    cd ../Backend
-    npm install
+3. Install dependencies for the frontend:
+    - cd Frontend
+    - npm install
 
 4. Configure the backend:
     Create a .env file in the Backend/ directory with the following variables:
@@ -63,12 +63,12 @@ Key files:
 
 ## Running the Application
 1. Start the Backend:
-    cd Backend
-    node [server.js](http://_vscodecontentref_/1)
+    - cd Backend
+    - node [server.js](http://_vscodecontentref_/1)
 
 2. Start the Frontend:
-    cd Frontend
-    npm run dev
+   - cd Frontend
+   - npm run dev
 
 ## Scripts
 npm run dev: Start the development server.
